@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Cabin', sans-serif;
+    line-height: 2em;
 
 }
 footer {
@@ -36,10 +37,17 @@ h1{
     padding: 3rem 0;
     font-size: 2.5em;
 }
+
 i{
     padding-right: .5rem;
     color: white;
 }
+
+p{
+    font-size: 1.2em;
+}
+
+
 .nav-bar{
     display: flex;
     width: 60%;
@@ -78,7 +86,7 @@ i{
 
 .header-bg{
     height: 500px;
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: 100%;
     
 }
@@ -122,19 +130,30 @@ i{
     align-items: center;
 }
 .container{
-    width: 80%;
-    padding: 7rem 0;
+    width: 60%;
+    padding: 5rem 0;
     display: flex;
     justify-content: space-evenly;
 }
 
-.img-description {
-    text-align: left;
-    width: 15%;
+.img-container img{
+    width: 100%;
 }
 
+.img-description {
+    text-align: left;
+    width: 30%;
+    padding: 0 3rem;
+}
+
+
 .img-container{
-    width: 50%;
+    width: 70%;
+    padding-right: 3rem;
+}
+
+.img-container-right{
+    padding-left: 3rem;
 }
 
 .text-section-title{
@@ -203,6 +222,7 @@ i{
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 4rem;
+    
 }
 
 .footer-nav{
@@ -211,7 +231,7 @@ i{
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
+    border-top: 1px solid #8FA1E1;
 }
 
 .btn {
@@ -220,6 +240,10 @@ i{
     color: white;
     padding: 5px 10px;
     border-radius: 20px;
+}
+
+.footer-img{
+    width: 120%;
 }
 
 /*Proprietà classi*/
@@ -232,10 +256,6 @@ ul.navigation-list li{
 
 footer section.container{
     padding: 3rem 0;
-}
-
-footer > section{
-    border-bottom: 2px solid white;
 }
 
 footer > section > .container{
